@@ -1,0 +1,9 @@
+export const REPORT_REASONS = [
+  "FAKE",
+  "SCAM",
+  "INAPPROPRIATE_CONTENT",
+  "SPAM",
+  "IMPERSONATION",
+  "PRIVACY_VIOLATION",
+  "OTHER",
+];

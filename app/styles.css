@@ -1,0 +1,36 @@
+.card-title {
+  @apply mb-3 text-2xl font-medium;
+}
+
+.personal-info-key {
+  @apply text-sm font-light;
+}
+
+.personal-info-value {
+  @apply text-xl;
+}
+
+.layout-container {
+  @apply grid grid-cols-1 gap-3 lg:grid-cols-3;
+}
+
+.layout-left-child {
+  @apply space-y-3 self-start lg:sticky lg:top-20;
+}
+
+.layout-right-child {
+  @apply space-y-3 lg:col-span-2;
+}
+
+.setting-item {
+  @apply flex flex-row items-center justify-between;
+}
+
+/* Project details page */
+.section-container {
+  @apply flex flex-col gap-1;
+}
+
+.section-title {
+  @apply text-sm;
+}
