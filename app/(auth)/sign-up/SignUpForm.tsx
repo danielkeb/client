@@ -115,7 +115,7 @@ export default function SignUpForm({
             }}
           >
             <option>--Select your location--</option>
-            {locations.map((location) => (
+            {locations?.map((location) => (
               <option key={location.id} value={location.id}>
                 {location.name}
               </option>
