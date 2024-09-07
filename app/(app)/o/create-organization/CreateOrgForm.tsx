@@ -132,7 +132,7 @@ export default function CreateOrgForm({ locations }: { locations: any }) {
               }}
             >
               <option>--Select your location--</option>
-              {locations.map((location: any) => {
+              {locations?.map((location: any) => {
                 return (
                   <option key={location.id} value={location.id}>
                     {location.name}
