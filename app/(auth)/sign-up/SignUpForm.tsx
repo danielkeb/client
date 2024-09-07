@@ -107,7 +107,7 @@ export default function SignUpForm({
               }}
             />
           </div>
-
+{/* 
           <SelectInput
             label="Location"
             props={{
@@ -120,7 +120,7 @@ export default function SignUpForm({
                 {location.name}
               </option>
             ))}
-          </SelectInput>
+          </SelectInput> */}
 
           <div className="flex flex-col gap-4 xl:flex-row">
             <TextInput
