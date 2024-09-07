@@ -107,20 +107,26 @@ export default function SignUpForm({
               }}
             />
           </div>
-{/* 
-          <SelectInput
-            label="Location"
-            props={{
-              name: "locationId",
-            }}
-          >
-            <option>--Select your location--</option>
-            {locations?.map((location) => (
-              <option key={location.id} value={location.id}>
-                {location.name}
-              </option>
-            ))}
-          </SelectInput> */}
+
+          {/* <SelectInput
+  label="Location"
+  props={{
+    name: "locationId",
+    disabled: !locations || locations.length === 0, // Disable if locations is null, undefined, or empty
+  }}
+>
+  <option value="">--Select your location--</option>
+  {locations?.length > 0 ? (
+    locations.map((location) => (
+      <option key={location.id} value={location.id}>
+        {location.name}
+      </option>
+    ))
+  ) : (
+    <option disabled>No locations available</option>
+  )}
+</SelectInput> */}
+
 
           <div className="flex flex-col gap-4 xl:flex-row">
             <TextInput
