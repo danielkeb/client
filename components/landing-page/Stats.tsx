@@ -6,18 +6,18 @@ export default async function Stats() {
   const stats = [
     {
       key: "Users",
-      value: res?.users?.total || 0,
+      value: res?.users?.total || 20,
       description: "The total number of registered users on the platform.",
     },
     {
       key: "Organizations",
-      value: res?.organizations?.total || 0,
+      value: res?.organizations?.total || 5,
       description:
         "The total number of organizations that have registered and created profiles.",
     },
     {
       key: "Projects",
-      value: res?.projects?.total || 0,
+      value: res?.projects?.total || 10,
       description:
         "The total number of active projects currently listed on the platform.",
     },
